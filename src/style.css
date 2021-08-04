@@ -1,0 +1,5 @@
+#grad {
+    background-image: linear-gradient(rgb(73, 179, 250), #fff);
+    height: 100%;
+    width: 100%;
+}
