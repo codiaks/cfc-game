@@ -1,5 +1,45 @@
-#grad {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
     background-image: linear-gradient(rgb(73, 179, 250), #fff);
-    height: 100%;
+    height: 350px;
     width: 100%;
+    margin-top: 0%;
+}
+
+.footer {
+    background-color: rgb(142, 200, 240);
+    position: absolute;
+    bottom: 15%;
+    width: 100%;
+    height: 3%;
+}
+
+.footer-top {
+    background-color: rgb(73, 179, 250);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 15%;
+}
+
+.container {
+    align-items: center;
+    height: 780px;
+    width: 70%;
+    left: 15%;
+    right: 15%;
+    z-index: 1;
+    background-color: blanchedalmond;
+}
+
+.container-step {
+    align-items: center;
+    width: 65%;
+    margin-left: 17%;
+    right: 15%;
 }
