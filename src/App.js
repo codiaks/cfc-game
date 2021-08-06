@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import "./style.css";
-import Game from './pages/game';
+import Main from './pages/main';
 
 function App() {
   return (
    
     <div className="App">
-      <Game />
+      <Main />
       {/*<header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

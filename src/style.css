@@ -29,12 +29,15 @@
 
 .container {
     align-items: center;
-    height: 780px;
+    height: 560px;
     width: 70%;
     left: 15%;
     right: 15%;
     z-index: 1;
-    background-color: blanchedalmond;
+    border-radius: 5px !important;
+    background-color: rgb(255, 255, 255) !important;
+    -webkit-box-shadow: -5px 5px 8px 1px #536163 !important;
+    box-shadow: -5px 5px 8px 1px #536163 !important;
 }
 
 .container-step {
@@ -42,4 +45,11 @@
     width: 65%;
     margin-left: 17%;
     right: 15%;
+}
+
+.shadow {
+    -webkit-box-shadow: -5px 5px 8px 1px #536163 !important;
+    box-shadow: -5px 5px 8px 0px #536163 !important;
+    border-radius: 5px !important;
+    background-color: #3B927B !important;
 }
