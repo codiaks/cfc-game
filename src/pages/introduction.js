@@ -3,8 +3,12 @@ import { StepEl } from "../components/steps";
 import { Card, Button } from "antd";
 
 
-export default function Introduction () {
+export default function Introduction (props) {
 
+
+    const startGame = () => {
+        props.start()
+    }
 
     return (
         <>
@@ -27,7 +31,7 @@ export default function Introduction () {
                             </div>
                         </div>
                         <div style={{marginTop:"5%", fontFamily: '',
-                    fontWeight:"bold", fontSize:"12px"}}>
+                    fontWeight:"bold", fontSize:"16px"}}>
                             നിങ്ങളുടെ മൊത്തം ജല ഉപയോഗം കണക്കാക്കാൻ ഈ
                             കാൽക്കുലേറ്റർ നിങ്ങളെ സഹായിക്കുന്നു. ടാപ്പിൽ നിന്നും വെള്ളം
                             വരുന്നുണ്ടെന്ന് നിങ്ങൾക്കറിയാം, എന്നാൽ നിങ്ങളുടെ വീടിനകത്തും
@@ -36,12 +40,14 @@ export default function Introduction () {
                             അതിനായി കളി ​​തുടങ്ങുക. 
                         </div>
                     </div>
-                    <div style={{marginTop:"8%"}}>
+                    <div style={{marginTop:"5%"}}>
                         <Button size="large" style={{backgroundColor:"#097B5D",
                         paddingLeft:'15px',paddingRight:'15px',
                         paddingTop:'6px',paddingBottom:'12px',
                         fontWeight:"bold", fontSize:"12px", color : '#fff',
-                        borderRadius: '5px',}} >
+                        borderRadius: '5px',}} 
+                        
+                            onClick={() => startGame()}                        >
                             തുടങ്ങുക
                         </Button>
                     </div>

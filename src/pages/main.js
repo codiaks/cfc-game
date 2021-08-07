@@ -11,12 +11,16 @@ export default function Main () {
 
     const [data, setData] = useState([]);
     const [is_intro, setIsIntro] = useState(true);
+    const [load, setLoad] = useState(0);
 
     useEffect(() => {
-        console.log(data,is_intro);
         setData(Data.questions)
     },[])
 
+    const startGame = () => {
+        setIsIntro(false);
+        setLoad(load + 1)
+    }
 
     return (
         <div >
@@ -35,9 +39,9 @@ export default function Main () {
                     <div id="main">
                         {
                             is_intro ? 
-                             <Introduction />
+                             <Introduction start={startGame} />
                              :
-                             <Game />
+                             <Game load={load} />
                         }
                     </div>
                 </div>

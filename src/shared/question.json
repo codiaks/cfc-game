@@ -7,27 +7,27 @@
          "category":"വീട്ടിൽ",
          "options":[
             {
-               "id":1,
+               "id":"1-1",
                "label":"1-3",
-               "score":0,
-               "image":"images/members1.png",
+               "score":1,
+               "image":"images/3-people.jpg",
                "unitConsumption":1,
                "feedback":"feedback"
             },
             {
-               "id":2,
+               "id":"1-2",
                "label":"4-6",
-               "score":0,
-               "image":"images/members2.png",
-               "unitConsumption":1,
+               "score":1,
+               "image":"images/5-people.jpg",
+               "unitConsumption":2,
                "feedback":"feedback"
             },
             {
-               "id":3,
+               "id":"1-3",
                "label":"> 6",
-               "score":0,
-               "image":"images/members3.png",
-               "unitConsumption":1,
+               "score":1,
+               "image":"images/6-people.jpg",
+               "unitConsumption":3,
                "feedback":"feedback"
             }
          ]
@@ -39,19 +39,43 @@
          "category":"ഷവർ",
          "options":[
             {
-               "id":1,
+               "id":"2-1",
                "label":"ബക്കറ്റും മഗ്ഗും ഉപയോഗിച്ച്",
-               "score":0,
-               "image":"images/bucket.jpeg",
+               "score":2,
+               "image":"images/bucket-mug.jpg",
+               "unitConsumption":2,
+               "feedback":"feedback"
+            },
+            {
+               "id":"2-2",
+               "label":"ഷവർ  ഉപയോഗിച്ച് ",
+               "score":1,
+               "image":"images/shower.jpg",
+               "unitConsumption":1,
+               "feedback":"feedback"
+            }
+         ]
+      },
+      {
+         "id":3,
+         "label":"മഴവെള്ളസംഭരണി വീട്ടിൽ  ഉണ്ടോ ?",
+         "headImage":"images/yard.jpg",
+         "category":"ഷവർ",
+         "options":[
+            {
+               "id":"3-1",
+               "label":"ഉണ്ട്",
+               "score":1,
+               "image":"images/rain-water-catch.jpg",
                "unitConsumption":1,
                "feedback":"feedback"
             },
             {
-               "id":2,
-               "label":"ഷവർ  ഉപയോഗിച്ച് ",
+               "id":"3-2",
+               "label":"ഇല്ല",
                "score":0,
-               "image":"images/shower.jpeg",
-               "unitConsumption":1,
+               "image":"images/yard.jpg",
+               "unitConsumption":2,
                "feedback":"feedback"
             }
          ]

@@ -6,14 +6,11 @@ const { Step } = Steps;
 
 export const StepEl = (props) => (
     <Steps current={props.current}>
-    <Step  />
-    <Step   />
-    <Step  />
-    <Step  />
-    <Step  />
-    <Step   />
-    <Step  />
-    <Step  />
+        {
+            props.length && props.length.map((item,i) => (
+                <Step key={i}  />
+            ))
+        }
 </Steps>
 )
 

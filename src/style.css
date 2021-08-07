@@ -53,3 +53,16 @@
     border-radius: 5px !important;
     background-color: #3B927B !important;
 }
+
+.question {
+    box-shadow: -4px 5px 8px 5px #888888 ;
+    
+    align-items : center;
+    text-align : center;
+     justify-content : center
+}
+
+.question :hover {
+    cursor : pointer;
+    background-color : #67FF9F;
+}
